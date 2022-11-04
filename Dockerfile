@@ -9,8 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-#RUN chmod 777 /app
-#
-#ENTRYPOINT ["pytest", "--remote"]
-
 CMD ["pytest"]
